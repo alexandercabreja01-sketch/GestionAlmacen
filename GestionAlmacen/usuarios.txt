@@ -1,0 +1,13 @@
+GESTION DE ALMACEN - C# WinForms (.NET Framework 4.7.2) + SQL Server
+
+1) Abre SQL Server Management Studio, conectate a localhost\SQLEXPRESS,
+   abre el archivo Almacen.sql y ejecutalo completo (F5).
+2) Abre GestionAlmacen\GestionAlmacen.sln con Visual Studio.
+   (Si te pide instalar .NET Framework 4.7.2 Developer Pack, aceptalo;
+    o cambia la version en Propiedades del proyecto > Aplicacion.)
+3) Si tu servidor NO es localhost\SQLEXPRESS, edita App.config (Data Source).
+4) Pulsa F5.
+
+Usuarios de prueba:
+  admin    / admin123     (Administrador: acceso completo)
+  invitado / invitado123  (Invitado: solo consulta y busqueda)
